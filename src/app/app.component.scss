@@ -1,0 +1,93 @@
+body {
+    background: rgb(3, 39, 3)
+}
+.row {
+    display: flex;
+}
+.square {
+    height: 40px;
+    width: 40px;
+    background: gray;
+    background-size: cover;
+}
+.b1 {
+    background-image: url(../assets/img/texture/1.jpg);
+}
+.b7 {
+    background-image: url(../assets/img/texture/7.jpg);
+}
+
+
+.b9 {
+    background-image: url(../assets/img/texture/9.jpg);
+}
+.character {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 40px;
+    width: 30px;
+    /* border-radius: 20px; */
+    /* background: rgb(214, 27, 83); */
+    background: url('../assets/img/texture/enemy-sprites-2-q.png');
+     background-position-x: -98px;
+     background-position-y: -232px;
+}
+
+.enemy {
+    position: absolute;
+    top: 140px;
+    left: 240px;
+    height: 45px;
+    width: 40px;
+    /* border-radius: 20px; */
+    /* background: rgb(214, 27, 83); */
+    background: url('../assets/img/texture/enemy-sprites-2-q.png');
+     background-position-x: -318px;
+     background-position-y: -289px;
+}
+
+
+/* .animation-char{
+    animation: fontbulger 2s infinite;
+}
+@keyframes fontbulger {
+    0% {
+        background-position-y: -232px;
+
+    }
+    30% {
+     background-position-y: -232px;
+
+    }
+    100% {
+     background-position-y: -232px;
+
+    }
+  } */
+  
+
+
+.b0 {
+    background-image: url(../assets/img/texture/1.jpg);
+    -webkit-filter: brightness(.3);
+    filter: brightness(.3);
+}
+.terrain {
+    position: relative;
+}
+.daimonds img {
+    width: 40px;
+}
+.daimonds {
+    /* display: flex; */
+}
+.counter {
+    display: inline-block;
+    font-size: 2em;
+    margin: 0 0 0 10px; 
+}
+.panel {
+    /* display: flex; */
+    color: white;
+}

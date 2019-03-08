@@ -1,0 +1,30 @@
+<div class="panel">
+  <div class="daimonds">
+    <img src="assets/img/texture/9.png" alt="">
+    <div class="counter">{{counter}}</div>
+  </div>
+</div>
+
+<div class="terrain">
+
+  <div class="row" *ngFor="let row of terrain">
+    <div class="square b{{sq}}" *ngFor="let sq of row">
+    </div>
+  </div>
+
+  <div 
+    class="character" 
+    [style.left]="char.x*40+'px'" 
+    [style.top]="char.y*40+'px'">
+  </div>
+
+</div>
+
+
+
+
+
+<div *ngFor="let c of [1,2,3]"> --{{c}}-- </div>
+
+
+<!-- <router-outlet></router-outlet> -->
